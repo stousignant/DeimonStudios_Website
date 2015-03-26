@@ -261,8 +261,8 @@ a:focus {
 	color: #000;
 }
 
-.textsize-16 {
-	font-size: 16px;
+.textsize-18 {
+	font-size: 18px;
 }
 
 .content-section {
@@ -295,7 +295,7 @@ a:focus {
 
 .contact-section {
     width: 100%;
-    padding: 20px 0;
+    padding: 50px 0;
     color: #fff;
     background: url(../img/contact-bg.jpg) no-repeat center center scroll;
     background-color: #000;

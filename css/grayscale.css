@@ -147,7 +147,7 @@ a:focus {
     padding: 100px 0;
     text-align: center;
     color: #fff;
-    background: url(../img/intro-bg.jpg) no-repeat bottom center scroll;
+    background: url(../img/intro-bg-2.jpg) no-repeat bottom center scroll;
     background-color: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -261,11 +261,11 @@ a:focus {
     padding-top: 100px;
 }
 
-.download-section {
+.about-section {
     width: 100%;
     padding: 50px 0;
     color: #fff;
-    background: url(../img/CORPS_ss1.jpg) no-repeat center center scroll;
+    background: url(../img/about-bg.jpg) no-repeat center center scroll;
     background-color: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -273,10 +273,40 @@ a:focus {
     -o-background-size: cover;
 }
 
-#map {
+.download-section {
     width: 100%;
-    height: 200px;
-    margin-top: 100px;
+    padding: 50px 0;
+    color: #fff;
+    background: url(../img/corps-bg.jpg) no-repeat center center scroll;
+    background-color: #000;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.contact-section {
+    width: 100%;
+    padding: 50px 0;
+    color: #fff;
+    background: url(../img/content-bg.jpg) no-repeat center center scroll;
+    background-color: #000;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.ue4-section {
+    width: 100%;
+    padding: 50px 0;
+    color: #fff;
+    background: url(../img/ue4-bg.jpg) no-repeat center center scroll;
+    background-color: #000;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
 }
 
 @media(min-width:767px) {
@@ -284,13 +314,20 @@ a:focus {
         padding-top: 250px;
     }
 
+	.about-section {
+        padding: 100px 0;
+    }
+	
     .download-section {
         padding: 100px 0;
     }
+	
+	.contact-section {
+        padding: 100px 0;
+    }
 
-    #map {
-        height: 400px;
-        margin-top: 250px;
+    .ue4-section {
+        padding: 100px 0;
     }
 }
 

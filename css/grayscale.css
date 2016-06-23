@@ -261,6 +261,10 @@ a:focus {
 	color: #000;
 }
 
+.textsize-12 {
+	font-size: 12px;
+}
+
 .textsize-18 {
 	font-size: 18px;
 }
